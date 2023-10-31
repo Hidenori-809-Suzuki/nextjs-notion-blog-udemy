@@ -1,6 +1,6 @@
 import React from 'react';
 import { getAllPosts, getSinglePost } from '../../../lib/notionAPI';
-import {ReactMarkdown} from 'react-markdown/lib/react-markdown';
+// import {ReactMarkdown} from 'react-markdown/lib/react-markdown';
 import Link from 'next/link';
 
 export const getStaticPaths = async () => {
